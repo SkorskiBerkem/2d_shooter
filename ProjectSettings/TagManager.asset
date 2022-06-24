@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 1347773367
+    locked: 0
+  - name: mob
+    uniqueID: 1280042035
+    locked: 0
+  - name: grass
+    uniqueID: 2277366043
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: yer
+    uniqueID: 3029005087
     locked: 0
