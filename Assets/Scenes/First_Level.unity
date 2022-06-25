@@ -1118,7 +1118,7 @@ GameObject:
   - component: {fileID: 714011492}
   - component: {fileID: 714011491}
   - component: {fileID: 714011490}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Teleporter_to_Level_2
   m_TagString: Next_Level
   m_Icon: {fileID: 0}
@@ -1211,8 +1211,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714011489}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 164.1565, y: 23.5411, z: 0}
-  m_LocalScale: {x: 2.2060597, y: 4.74284, z: 1}
+  m_LocalPosition: {x: 12.901, y: 8.2, z: 0}
+  m_LocalScale: {x: -2.6498773, y: 4.74284, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

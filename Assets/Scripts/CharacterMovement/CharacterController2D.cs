@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -143,4 +144,22 @@ public class CharacterController2D : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+
+		if (collision.tag == "Next_Level")
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			// Or you can use SceneManager.LoadScene(1); to load a specific scene instead
+
+			
+		}
+		else if (collision.tag == "Previous_Level")
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+		}
+	}
+
 }
