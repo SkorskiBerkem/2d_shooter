@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class MonsterDamage : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class MonsterDamage : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             playerHealth.TakeDamage(damage);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
