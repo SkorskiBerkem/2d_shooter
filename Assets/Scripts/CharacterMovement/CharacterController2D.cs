@@ -157,6 +157,12 @@ public class CharacterController2D : MonoBehaviour
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 		}
+
+		else if (collision.tag == "final")
+		{
+			SceneManager.LoadScene(0);
+		}
+
 	}
 
 }
